@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemática Avançada com IA | Glassmorphism Masterclass</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
+
+    <div class="logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <img src="assets/logo.png" alt="CAIA Logo">
+    </div>
+
+    <nav class="glass">
+        <div class="links">
+            <a href="#intro">Introdução</a>
+            <div class="dropdown">
+                <a href="#linear" class="dropbtn">Efeitos</a>
+                <div class="dropdown-content">
+                    <a href="#linear">Lineares</a>
+                    <a href="#lens">Lente e Foco</a>
+                    <a href="#rotation">Rotacionais</a>
+                    <a href="#vertical">Verticais</a>
+                    <a href="#drone">Aéreos</a>
+                    <a href="#stylistic">Estilísticos</a>
+                </div>
+            </div>
+            <a href="#about">Acerca</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content reveal">
+                <span class="section-label">Masterclass Imersiva</span>
+                <h1>Cinemática Avançada com IA</h1>
+                <p>Onde a Inteligência Artificial domina a arte do movimento de câmara</p>
+            </div>
+        </section>
+
+        <!-- SECTION: INTRODUÇÃO -->
+        <section id="intro" class="intro-section reveal">
+            <div class="intro-grid">
+                <div class="intro-image" style="background-image: url('assets/intro.jpg');">
+                </div>
+                <div class="intro-text">
+                    <span class="section-label">A Nova Era</span>
+                    <h2>Da operação técnica à direção cinematográfica com IA</h2>
+                    <p>O movimento de câmara sempre foi a espinha dorsal da linguagem cinematográfica. E mesmo na era da
+                        Inteligência Artificial, essa verdade mantém-se intacta. Não é a tecnologia que cria impacto por
+                        si só, mas a forma como é dirigida. Guiar o olhar do espectador, construir tensão, revelar
+                        informação no momento certo e provocar emoção continua a depender de decisões conscientes sobre
+                        como a câmara se move.</p>
+                    <p>É aqui que se traça a linha entre um vídeo comum e um vídeo que se destaca. Entre o conteúdo
+                        gerado automaticamente e uma obra com intenção cinematográfica. Dominar o movimento de câmara é,
+                        hoje, a diferença real entre produzir vídeos com IA… e criar cinema com IA.</p>
+                    <p>Este guia nasce como uma masterclass prática e estratégica. Reúne 38 movimentos de câmara
+                        essenciais, cuidadosamente selecionados para elevar a qualidade visual e narrativa das suas
+                        criações. Cada técnica é apresentada não apenas como um efeito visual, mas como uma ferramenta
+                        de linguagem — uma forma de comunicar, sugerir e envolver.</p>
+                    <p>A abordagem é deliberadamente prática. Cada movimento é estudado em duas etapas: primeiro,
+                        isolando a sua mecânica através de uma imagem estática, para compreender com precisão o que
+                        acontece no enquadramento; depois, aplicando esse movimento a um prompt real de geração de vídeo
+                        com IA, observando o seu impacto num contexto dinâmico e narrativo.</p>
+                    <p>Ao longo deste percurso, o objetivo é claro: ajudá-lo a deixar de pensar como um operador de
+                        prompts e começar a agir como um diretor de fotografia digital. A tecnologia fornece a tela, mas
+                        é a sua intenção criativa que define a história que nela ganha vida.</p>
+                    <p>A pergunta já não é se a Inteligência Artificial consegue criar cinema. A verdadeira questão é
+                        quem tem a visão, a sensibilidade e o controlo para a dirigir. Este guia é o seu ponto de
+                        partida. Experimente, adapte, observe e descubra como cada movimento de câmara transforma
+                        profundamente a narrativa, o ritmo e a emoção do que cria.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CHAPTER 1: LINEARES -->
+        <section id="linear" class="chapter">
+            <div class="chapter-header reveal" style="background-image: url('assets/cat_linear.png');">
+                <span class="section-label">Capítulo 01</span>
+                <h2>Movimentos Lineares</h2>
+                <p>A pureza da trajetória e o foco narrativo.</p>
+            </div>
+
+            <div class="movement-grid">
+                <!-- 1. Slow Dolly In -->
+                <div class="movement-card glass reveal">
+                    <h3>Slow Dolly In</h3>
+                    <p class="description">Aproximação lenta e constante ao sujeito, aumentando a gravidade emocional.
+                    </p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Slow cinematic dolly in towards the subject, clinical precision, high detail, 35mm')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Slow cinematic dolly in towards the subject...</span>
+                    </div>
+                </div>
+                <!-- 2. Slow Dolly Out -->
+                <div class="movement-card glass reveal">
+                    <h3>Slow Dolly Out</h3>
+                    <p class="description">Afastamento gradual para revelar o contexto e isolar o personagem no espaço.
+                    </p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Gradual dolly out revealing the empty environment, isolation, cinematic scale')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Gradual dolly out revealing the environment...</span>
+                    </div>
+                </div>
+                <!-- 3. Fast Dolly In (Rush) -->
+                <div class="movement-card glass reveal">
+                    <h3>Fast Dolly In</h3>
+                    <p class="description">Movimento rápido de urgência que força a atenção para um detalhe ou rosto.
+                    </p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Fast rush dolly in, sudden tension, motion blur on edges, high energy')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Fast rush dolly in, sudden tension...</span>
+                    </div>
+                </div>
+                <!-- 4. Lateral Truck Left -->
+                <div class="movement-card glass reveal">
+                    <h3>Lateral Truck Left</h3>
+                    <p class="description">Câmara desliza lateralmente para a esquerda, ideal para acompanhar perfil ou
+                        cenário.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Lateral truck shot moving left, constant speed, tracking subject in profile')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Lateral truck shot moving left...</span>
+                    </div>
+                </div>
+                <!-- 5. Lateral Truck Right -->
+                <div class="movement-card glass reveal">
+                    <h3>Lateral Truck Right</h3>
+                    <p class="description">Deslizamento lateral para a direita, explorando o espaço e o movimento
+                        paralelo.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Smooth truck right shot, cinematic parallax, tracking background elements')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Smooth truck right shot, cinematic parallax...</span>
+                    </div>
+                </div>
+                <!-- 6. Leading Shot -->
+                <div class="movement-card glass reveal">
+                    <h3>Leading Shot</h3>
+                    <p class="description">Tracking para trás enquanto o sujeito avança para a câmara, criando
+                        antecipação.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Leading backward tracking shot, character walking towards camera, narrow street')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Leading backward tracking shot...</span>
+                    </div>
+                </div>
+                <!-- 7. Following Shot -->
+                <div class="movement-card glass reveal">
+                    <h3>Following Shot</h3>
+                    <p class="description">A câmara segue o sujeito pelas costas, convidando o espectador a entrar no
+                        seu mundo.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Following shot from behind, immersive perspective, smooth gimbal motion')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Following shot from behind...</span>
+                    </div>
+                </div>
+                <!-- 8. Side Tracking -->
+                <div class="movement-card glass reveal">
+                    <h3>Side Tracking</h3>
+                    <p class="description">Movimento lateral paralelo ao sujeito, mantendo uma distância constante e
+                        íntima.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Parallel side tracking, consistent distance, character running, cinematic look')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Parallel side tracking, character running...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CHAPTER 2: Lente e Foco -->
+        <section id="lens" class="chapter">
+            <div class="chapter-header reveal" style="background-image: url('assets/cat_lens.png');">
+                <span class="section-label">Capítulo 02</span>
+                <h2>Lente e Foco</h2>
+                <p>A manipulação da perceção e da profundidade.</p>
+            </div>
+
+            <div class="movement-grid">
+                <!-- 9. Vertigo Effect -->
+                <div class="movement-card glass reveal">
+                    <h3>Vertigo Effect</h3>
+                    <p class="description">Dolly Zoom que cria uma sensação de desorientação ao aproximar a câmara
+                        enquanto faz zoom out.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Cinematic vertigo effect, dolly zoom, background stretching, character focus, 8k')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Cinematic vertigo effect, dolly zoom...</span>
+                    </div>
+                </div>
+                <!-- 10. Macro Zoom -->
+                <div class="movement-card glass reveal">
+                    <h3>Macro Zoom</h3>
+                    <p class="description">Zoom extremo em detalhes minúsculos, revelando texturas invisíveis a olho nu.
+                    </p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Macro zoom into eye iris, extreme detail, hyper-realistic, microscopic view')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Macro zoom into eye iris, extreme detail...</span>
+                    </div>
+                </div>
+                <!-- 11. Hyper Zoom -->
+                <div class="movement-card glass reveal">
+                    <h3>Hyper Zoom</h3>
+                    <p class="description">Um zoom ultra-rápido de grande escala, partindo de uma vista geral para um
+                        detalhe íntimo.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Hyper zoom from space to a city street, seamless transition, satellite view to macro')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Hyper zoom from space to city...</span>
+                    </div>
+                </div>
+                <!-- 12. Smooth Optical Zoom In -->
+                <div class="movement-card glass reveal">
+                    <h3>Optical Zoom In</h3>
+                    <p class="description">Aproximação constante através da lente, comprimindo o espaço.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Slow optical zoom in, compression of background, focus on character expression')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Slow optical zoom in, compression...</span>
+                    </div>
+                </div>
+                <!-- 13. Smooth Optical Zoom Out -->
+                <div class="movement-card glass reveal">
+                    <h3>Optical Zoom Out</h3>
+                    <p class="description">Afastamento ótico para revelar o que rodeia o sujeito, sem movimento físico.
+                    </p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Slow optical zoom out, revealing the massive crowd around the subject')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Slow optical zoom out, revealing...</span>
+                    </div>
+                </div>
+                <!-- 14. Snap Zoom -->
+                <div class="movement-card glass reveal">
+                    <h3>Snap Zoom</h3>
+                    <p class="description">Zoom instantâneo e agressivo (estilo Tarantino) para enfatizar uma reação.
+                    </p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Aggressive snap zoom, crash zoom into face, retro cinematic style, high energy')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Aggressive snap zoom, crash zoom...</span>
+                    </div>
+                </div>
+                <!-- 15. Reveal from Blur -->
+                <div class="movement-card glass reveal">
+                    <h3>Reveal from Blur</h3>
+                    <p class="description">A imagem começa totalmente desfocada e ganha nitidez gradualmente.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Blurred background transition to sharp focus pull, revealing the protagonist')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Blurred background transition to sharp...</span>
+                    </div>
+                </div>
+                <!-- 16. Rack Focus -->
+                <div class="movement-card glass reveal">
+                    <h3>Rack Focus</h3>
+                    <p class="description">Transição de foco entre dois planos (objeto em primeiro plano para fundo).
+                    </p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Cinematic rack focus from foreground object to background character, soft bokeh')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Cinematic rack focus from foreground...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CHAPTER 3: Rotacional -->
+        <section id="rotation" class="chapter">
+            <div class="chapter-header reveal" style="background-image: url('assets/cat_rotation.png');">
+                <span class="section-label">Capítulo 03</span>
+                <h2>Rotacionais e Arqueados</h2>
+                <p>O movimento em torno da alma do cenário.</p>
+            </div>
+
+            <div class="movement-grid">
+                <!-- 17. Orbit 180 -->
+                <div class="movement-card glass reveal">
+                    <h3>Orbit 180</h3>
+                    <p class="description">Meio círculo em torno do sujeito, mudando completamente a perspetiva visual.
+                    </p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Smooth 180 degree orbital camera movement, dynamic background reveal')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Smooth 180 degree orbital camera...</span>
+                    </div>
+                </div>
+                <!-- 18. Fast 360 Orbit Spin -->
+                <div class="movement-card glass reveal">
+                    <h3>Fast 360 Orbit Spin</h3>
+                    <p class="description">Rotação completa e rápida, criando um efeito de tontura e energia épica.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Dynamic 360 degree fast orbit rotation, epic scale, center subject focus')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Dynamic 360 degree fast orbit...</span>
+                    </div>
+                </div>
+                <!-- 19. Slow Cinematic Arc -->
+                <div class="movement-card glass reveal">
+                    <h3>Slow Cinematic Arc</h3>
+                    <p class="description">Movimento em arco gracioso, explorando a relação sujeito-cenário com
+                        elegância.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Elegant slow arc tracking shot, cinematic lighting, shallow depth of field')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Elegant slow arc tracking shot...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CHAPTER 4: Verticais -->
+        <section id="vertical" class="chapter">
+            <div class="chapter-header reveal" style="background-image: url('assets/cat_vertical.png');">
+                <span class="section-label">Capítulo 04</span>
+                <h2>Movimentos Verticais</h2>
+                <p>A ascensão e queda da perspetiva.</p>
+            </div>
+
+            <div class="movement-grid">
+                <!-- 20. Tilt Up -->
+                <div class="movement-card glass reveal">
+                    <h3>Tilt Up</h3>
+                    <p class="description">A câmara inclina-se para cima, acompanhando o olhar ou revelando altura.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Cinematic tilt up from subject\'s feet to their face, dramatic reveal, 35mm lens')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Cinematic tilt up from subject's feet...</span>
+                    </div>
+                </div>
+                <!-- 21. Tilt Down -->
+                <div class="movement-card glass reveal">
+                    <h3>Tilt Down</h3>
+                    <p class="description">Inclinação para baixo, revelando o chão ou uma perspetiva de submissão.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Slow cinematic tilt down from the sky to the city street, urban atmosphere, moody lighting')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Slow cinematic tilt down from sky...</span>
+                    </div>
+                </div>
+                <!-- 22. Pedestal Down -->
+                <div class="movement-card glass reveal">
+                    <h3>Pedestal Down</h3>
+                    <p class="description">Câmara desce verticalmente de forma física, mantendo o ângulo constante.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Smooth pedestal down shot revealing the character sitting on the floor, low angle, soft lighting')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Smooth pedestal down shot revealing...</span>
+                    </div>
+                </div>
+                <!-- 23. Pedestal Up -->
+                <div class="movement-card glass reveal">
+                    <h3>Pedestal Up</h3>
+                    <p class="description">Subida vertical física, revelando a escala do cenário de baixo para cima.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Vertical pedestal up reveal of a grand library, symmetrical composition, high detail')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Vertical pedestal up reveal...</span>
+                    </div>
+                </div>
+                <!-- 24. Crane Up -->
+                <div class="movement-card glass reveal">
+                    <h3>Crane Up</h3>
+                    <p class="description">Movimento de guindaste épico que sobe e inclina para revelar uma vista vasta.
+                    </p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Epic crane up shot rising above the trees to reveal the castle, cinematic scale, golden hour')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Epic crane up shot rising above trees...</span>
+                    </div>
+                </div>
+                <!-- 25. Crane Down -->
+                <div class="movement-card glass reveal">
+                    <h3>Crane Down</h3>
+                    <p class="description">Aterragem suave da câmara partindo de um ângulo alto para um close-up íntimo.
+                    </p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Sweeping crane down shot landing on a close-up of a letter on a desk, detailed texture')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Sweeping crane down shot landing...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CHAPTER 5: Drone -->
+        <section id="drone" class="chapter">
+            <div class="chapter-header reveal" style="background-image: url('assets/cat_aerial.png');">
+                <span class="section-label">Capítulo 05</span>
+                <h2>Aéreos (Drone)</h2>
+                <p>A vista de Deus sobre o mundo IA.</p>
+            </div>
+
+            <div class="movement-grid">
+                <!-- 26. Drone Flyover -->
+                <div class="movement-card glass reveal">
+                    <h3>Drone Flyover</h3>
+                    <p class="description">Sobrevoo a alta altitude num movimento retilíneo e majestoso.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('High altitude drone flyover of a futuristic city, straight path, scale and depth, 8k')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">High altitude drone flyover...</span>
+                    </div>
+                </div>
+                <!-- 27. Epic Drone Reveal -->
+                <div class="movement-card glass reveal">
+                    <h3>Epic Drone Reveal</h3>
+                    <p class="description">Drone sobe e vira lentamente para revelar um horizonte vasto atrás de uma
+                        barreira.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Majestic drone reveal rising over the mountain ridge, vast landscape, cinematic lighting')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Majestic drone reveal rising over ridge...</span>
+                    </div>
+                </div>
+                <!-- 28. Large Scale Drone Orbit -->
+                <div class="movement-card glass reveal">
+                    <h3>Large Scale Drone Orbit</h3>
+                    <p class="description">Órbita circular massiva ao longo de quilómetros, capturando geografia.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Epic 360 degree drone orbit around a lighthouse, oceanic waves, high contrast')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Epic 360 degree drone orbit...</span>
+                    </div>
+                </div>
+                <!-- 29. Top Down -->
+                <div class="movement-card glass reveal">
+                    <h3>Top Down</h3>
+                    <p class="description">Vista zenital pura, criando geometria a partir de paisagens reais.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Symmetrical top-down god\'s eye view of a winding road in autumn forest, drone photography')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Symmetrical top-down god's eye view...</span>
+                    </div>
+                </div>
+                <!-- 30. FPV Drone Dive -->
+                <div class="movement-card glass reveal">
+                    <h3>FPV Drone Dive</h3>
+                    <p class="description">Mergulho acrobático e rápido em direção ao solo, estilo drone de corrida.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Intense FPV drone dive down the side of a skyscraper, motion blur, extreme speed')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Intense FPV drone dive down skyscraper...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CHAPTER 6: Técnicas Estilísticas -->
+        <section id="stylistic" class="chapter">
+            <div class="chapter-header reveal"
+                style="background-image: url('https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&q=80&w=2000');">
+                <span class="section-label">Capítulo 06</span>
+                <h2>Técnicas Estilísticas</h2>
+                <p>A quebra da realidade e a linguagem do autor.</p>
+            </div>
+
+            <div class="movement-grid">
+                <!-- 31. Over The Shoulder -->
+                <div class="movement-card glass reveal">
+                    <h3>Over The Shoulder</h3>
+                    <p class="description">Enquadramento clássico por trás do ombro, focando na conversa ou reação.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Cinematic over-the-shoulder shot, shallow depth of field, focus on the person speaking')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Cinematic over-the-shoulder shot...</span>
+                    </div>
+                </div>
+                <!-- 32. Fisheye -->
+                <div class="movement-card glass reveal">
+                    <h3>Fisheye</h3>
+                    <p class="description">Distorção ultra-angular extrema, estilo olho de peixe para desorientação
+                        urbana.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Extreme fisheye lens shot, distorted perspective, urban street style, close-up face')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Extreme fisheye lens shot...</span>
+                    </div>
+                </div>
+                <!-- 33. Reveal from Behind -->
+                <div class="movement-card glass reveal">
+                    <h3>Reveal from Behind</h3>
+                    <p class="description">Transição lateral em que um objeto em primeiro plano revela uma cena nova.
+                    </p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Wipe reveal from behind a pillar to show the hidden marketplace, smooth motion')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Wipe reveal from behind a pillar...</span>
+                    </div>
+                </div>
+                <!-- 34. Through Shot -->
+                <div class="movement-card glass reveal">
+                    <h3>Through Shot</h3>
+                    <p class="description">Câmara atravessa um espaço pequeno como um buraco na fechadura ou janela.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Cinematic fly-through shot through a small window opening into a courtyard, precision')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Cinematic fly-through shot...</span>
+                    </div>
+                </div>
+                <!-- 35. Handheld Documentary -->
+                <div class="movement-card glass reveal">
+                    <h3>Handheld Style</h3>
+                    <p class="description">Movimento tremido e orgânico, simulando câmara na mão para realismo imediato.
+                    </p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Organic handheld camera work, slight shake, documentary style, raw and intimate')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Organic handheld camera work...</span>
+                    </div>
+                </div>
+                <!-- 36. Whip Pan -->
+                <div class="movement-card glass reveal">
+                    <h3>Whip Pan</h3>
+                    <p class="description">Panorâmica ultra-rápida que desfoca o cenário no movimento, conectando duas
+                        cenas.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Fast cinematic whip pan transition between two characters, motion blur, dynamic energy')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Fast cinematic whip pan transition...</span>
+                    </div>
+                </div>
+                <!-- 37. Dutch Angle Roll -->
+                <div class="movement-card glass reveal">
+                    <h3>Dutch Angle Roll</h3>
+                    <p class="description">Câmara roda no seu eixo, inclinando o horizonte para criar angústia ou
+                        tensão.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('Dramatic dutch angle roll, tilted horizon, increasing psychological tension, 8k')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">Dramatic dutch angle roll...</span>
+                    </div>
+                </div>
+                <!-- 38. POV Walk -->
+                <div class="movement-card glass reveal">
+                    <h3>POV Walk</h3>
+                    <p class="description">Visão em primeira pessoa, simulando o caminhar e o balanço do corpo.</p>
+                    <div class="prompt-box"
+                        onclick="copyPrompt('First person point of view walking shot, rhythmic body sway, immersive perspective')">
+                        <span class="prompt-label">AI Prompt</span>
+                        <span class="prompt-text">First person point of view walking...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION: ACERCA -->
+        <section id="about" class="about-section reveal">
+            <div class="about-card glass">
+                <span class="section-label">O Autor</span>
+                <h2>Martinho Manuelito</h2>
+                <p>Curador de experiências digitais e especialista em cinemática dirigida por IA. Este guia é o
+                    resultado de uma exploração contínua da fronteira entre tecnologia e arte narrativa.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/mmanuelito" target="_blank" class="social-icon"
+                        aria-label="Facebook">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/martinhomanuelito" target="_blank" class="social-icon"
+                        aria-label="Instagram">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01M7.5 21h9a4.5 4.5 0 004.5-4.5v-9A4.5 4.5 0 0016.5 3h-9A4.5 4.5 0 003 7.5v9A4.5 4.5 0 007.5 21z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Martinho Manuelito | Cinemática Avançada com IA.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
